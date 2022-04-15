@@ -8,7 +8,7 @@
 #include "gpio_ll.h"
 
 /* Address of GPIO Port A peripheral */
-#define GPIOA_BASE            		0x40010800
+#define GPIOA_BASE					0x40010800
 
 /* Register ODR offset */
 #define GPIO_ODR_OFFSET				0x0C
