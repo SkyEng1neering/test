@@ -35,7 +35,7 @@ struct GpioPort {
 	uint16_t P15 : 1;
 };
 
-struct GpioPort* gpioPortA = (struct GpioPort*)(GPIOA_ODR_ADDRESS);
+volatile struct GpioPort* gpioPortA = (struct GpioPort*)(GPIOA_ODR_ADDRESS);
 
 void gpio_init(){
 	//init gpio that will be used as output push pull, i.e. port A
